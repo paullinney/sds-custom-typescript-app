@@ -14,12 +14,12 @@ module.exports = {
   resolve: {
     extensions: [ '.ts', '.js' ]
   },
-  output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
-  },
   plugins: [
     new HtmlWebpackPlugin()
   ],
-  mode: 'production'
+  mode: 'production',
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist')
+  }
 };
