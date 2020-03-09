@@ -3,6 +3,7 @@
   "license": "(MIT OR Apache-2.0)",
   "version": "0.2.0",
   "scripts": {
+    "watch": "webpack --watch",
     "build": "webpack"
   },
   "devDependencies": {
